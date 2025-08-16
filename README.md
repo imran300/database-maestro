@@ -1,4 +1,5 @@
 # Database Sync Console - Implementation Tasks
+
 # What is Database Maestro?
 ## Its a Sync tool that i built for myself while dealing with databases specially with different environments and agile environemnt.
 # Database Maewstro is a:
@@ -365,3 +366,23 @@ php artisan db:sync-final testing-to-prod --dry-run
 
 **Current Status**: ✅ **Phase 1-8 Complete** (Core functionality implemented)
 **Next Priority**: Phase 9-11 (Safety, Production Readiness, Advanced Features)
+
+## Technology Stack
+- **Framework**: Laravel 12.x
+- **Database**: MySQL, SQLite (for testing)
+- **Console**: Laravel Artisan Commands
+- **Styling**: Color-coded console output
+- **Version Control**: Git integration
+
+## Getting Started
+1. Clone the repository
+2. Install dependencies: `composer install`
+3. Copy `.env.example` to `.env` and configure
+4. Run migrations: `php artisan migrate`
+5. Start the console: `php artisan db:maestro`
+
+## Contributing
+This is a personal tool built for database management across different environments. Feel free to contribute improvements and features.
+
+## License
+MIT License - Feel free to use and modify as needed.
